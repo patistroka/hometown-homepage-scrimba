@@ -27,7 +27,9 @@ The homepage highlights key cultural aspects of São Paulo, including its archit
 
 ## 📸 Preview
 
-![Screenshot of the project](./images/screenshot.jpg) <!-- Replace with your actual screenshot path -->
+Here’s what the project looks like:
+
+![Screenshot of the project](./images/screenshot.jpg) 
 
 📄 License
 This project is for educational purposes only and is not intended for commercial use.
