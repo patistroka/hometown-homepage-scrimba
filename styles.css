@@ -1,0 +1,133 @@
+/* 1. RESET E BASE */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Urbanist", sans-serif;
+  color: #1a1a1a;
+  text-align: center;
+  background-size: cover;
+}
+
+/* 2. UTILITÁRIOS */
+.bold {
+  font-weight: 500;
+}
+
+.divider {
+  width: 80px;
+  height: 6px;
+  background-color: #7b8f8b;
+  margin: 2rem 2rem;
+}
+
+a {
+  color: #1a1a1a;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background-color 0.3s;
+}
+
+a:hover {
+  cursor: pointer;
+  color: #7b8f8b;
+}
+
+/* 3. HERO SECTION */
+#hero-section {
+  background-image: url("images/sao-paulo.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 3px solid #cec4bc;
+  border-bottom: 3px solid #cec4bc;
+  padding-top: 1rem;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.3rem;
+}
+
+.hero-text h1,
+.hero-text p {
+  margin: 0;
+}
+
+/* 4. INTRO E ATIVIDADES */
+#section-intro,
+#more-info {
+  font-family: "Inter", sans-serif;
+  line-height: 1.6;
+  font-weight: 300;
+  font-size: 1rem;
+  max-width: 1000px;
+  margin: 2rem auto 1rem auto;
+  padding: 0 2rem;
+  text-align: left;
+}
+
+.activities-container {
+  max-width: 1000px;
+  margin: 0 auto 2rem auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 2rem;
+}
+
+.activity-card {
+  font-family: "Inter", sans-serif;
+  line-height: 1.5;
+  font-weight: 300;
+  font-size: 1rem;
+  padding: 1rem;
+  border-radius: 8px;
+  max-width: 300px;
+  flex: 1 1 250px;
+  text-align: left;
+}
+
+.card-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 6px;
+  margin: 0;
+  transition: border 0.3s ease;
+}
+
+.card-image:hover {
+  border: 6px solid #7b8f8b;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+
+/* 5. FOOTER */
+.footer {
+  background-color: #e0d7d2;
+  padding: 2rem;
+  text-align: center;
+  font-size: 0.9rem;
+  font-family: "Inter", sans-serif;
+  color: #333;
+  border-top: 2px solid #cec4bc;
+  margin-top: 3rem;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: #6b4e3d;
+  font-weight: 500;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
